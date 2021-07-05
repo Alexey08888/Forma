@@ -1,0 +1,88 @@
+
+* 
+{
+
+box-sizing: border-box;
+
+}
+
+body
+
+{
+    background-color: rgb(148, 145, 145);
+    color: rgb(110, 108, 108);
+}
+
+h1::before,h1::after
+{
+    content: '';
+width: 20%;
+height: 2px;
+display: inline-block;
+vertical-align: middle;
+background-color: rgb(153, 146, 146);
+
+}
+
+.container
+{
+    width: 360px;
+    height: 450px;
+    background-color: rgb(242,243,247);
+    margin: 250px auto 0 auto;
+    text-align: center;
+}
+
+input[type = "text"], input[type = "password"]
+{
+    width: 150px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 0.5px solid grey;
+  
+}
+
+
+input[type = "submit"]
+{
+    width: 300px;
+    height: 40px;
+    background-color: rgb(75,156,77);
+    border: none;
+    font-size: 20px;
+    color:white ;
+    font-weight: bold;
+}
+
+
+input[type = "password1"]
+{
+
+    width: 300px;
+    height: 40px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border: 0.5px solid grey;
+}
+.sub:hover
+{
+    background-color: rgb(72, 87, 57)
+}
+
+.container h1
+{
+    padding-top: 30px; ;
+}
+
+.agree
+
+{
+   margin-right: 145px;;
+}
